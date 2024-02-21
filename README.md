@@ -1,44 +1,35 @@
-# insta-hack
+# Hacking Instagram Accounts from Android Using Termux
 
-Hello, guy's iam back with another amazing post so today, we will going to learn about hacking instgram accounts. So as far i i know many of my followers asked me about how we can hack any instgram account from android device with easy steps. So as we all know that hacking instagram is not child's play so we have to play with some script to hack any instagram account from termux named app which is also available for android devices. So from this app you can do lots of stuff with help of our website by getting tutorials from here so lets move towards practical tutorial now, Now follow below steps.
+Hello guys! I'm back with another amazing post. Today, we'll learn about hacking Instagram accounts. Many of my followers have asked me about hacking Instagram accounts from an Android device with easy steps. Hacking Instagram is not child's play, so we have to use some scripts to accomplish this task. We'll be using an app called Termux, which is available for Android devices. With this app, you can do lots of stuff with the help of our website by getting tutorials from here. Let's dive into the practical tutorial now.
 
-#Follow Below Steps
+## Follow Below Steps
 
-1). Make sure you already installed termux app and updated it with stable packages.
+1. Make sure you have already installed the Termux app and updated it with stable packages.
 
-$ apt-get update -y
+    ```
+    $ apt-get update -y
+    $ apt-get upgrade -y
+    $ pkg install python -y
+    $ pkg install python2 -y
+    $ pkg install git -y
+    $ pip install lolcat
+    $ git clone https://github.com/noob-hackers/ighack
+    $ cd ighack
+    $ bash setup
+    $ bash ighack.sh
+    ```
 
-$ apt-get upgrade -y
+    Now you need an internet connection to continue the further process.
 
-$ pkg install python -y 
+    You can select any option by clicking on your keyboard.
 
-$ pkg install python2 -y
+    **Note:** Don't delete any of the scripts included in core files.
 
-$ pkg install git -y
+2. Now open a new session and type `tor` in it, then come back to the old session and start the IG hack tool. Begin attacking the ID of the account you want to hack.
 
-$ pip install lolcat
+3. There is also an option for a custom password list in the tool, so please use the proper location to use that password list.
 
-$ git clone https://github.com/noob-hackers/ighack
+    **Example:** `/sdcard/Download/pass.txt`
 
-$ ls
+    Use the location in the custom password list attack as shown above. Enjoy your attack!
 
-$ cd ighack
-
-$ ls
-
-$ bash setup
-
-$ bash ighack.sh
-
-Now you need internet connection to continue further process...
-
-You can select any option by clicking on your keyboard
-
-Note:- Don't delete any of the scripts included in core files
-
-Now open a new session and type tor in it and then come back to old session and start ig hack tool and start attacking id of which you want to hack. And also there is an custom pass list option in the tool so please use proper location to use that pass list in the tool.
-
-Example:- /sdcard/Download/pass.txt
-
-Like above example you have to use location in custom pass list attack.
-Enjoy ur attack.
